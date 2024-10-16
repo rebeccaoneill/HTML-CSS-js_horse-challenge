@@ -1,0 +1,71 @@
+.container {
+  margin: 6px;
+  gap: 10px;
+}
+
+.card-notification {
+  height: 10vh;
+  min-width: 230px;
+  width: 100%;
+  background-color: #fafafa;
+  border-top: 1px solid #d3d3d3;
+  border-bottom: 1px solid #d3d3d3;
+
+}
+
+.card-notification img {
+  height: 50px;
+  width: 50px;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+#username {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  color: black;
+}
+
+.card-notification p {
+  margin: 0;
+  margin-right: 2px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.card-notification a {
+  text-decoration: none;
+  color: grey;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+}
+
+.card-notification a:hover {
+  text-decoration: underline;
+}
+
+
+.card-notification .card-notification-infos {
+  padding: 8px;
+  display: flex;
+  position: relative;
+}
+
+.card-notification-infos .date{
+  position: absolute;
+  right: 4px;
+  top: 8px;
+  width: 40px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: lightgray;
+  font-size: 12px;
+}
