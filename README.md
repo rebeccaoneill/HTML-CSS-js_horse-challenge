@@ -1,4 +1,4 @@
-# github-HTML-CSS-challenge-unboxed
+# HTML-CSS-challenge-unboxed
 
 **Overview**
 - Recreated horse_js design shared with HTML & CSS alone
